@@ -1,3 +1,36 @@
+<table class="icon-table">
+    <tr>
+      <td class="country-row">België</td>
+      <td ng-repeat="container in containers">
+        <img src="images/container.png"  ></img>    
+      </td>
+      <div ng-controller="DestinationCtrl">
+ 		 {{ beContainers }}
+		</div>
+
+    </tr >
+    <tr>
+      <td><img src="images/terminal.png"></img> </td>       
+      <td ng-repeat="container in containers">
+        <img src="images/container.png"  ></img>    
+      </td>
+    </tr >
+    <tr>
+      <td><img src="images/container_truck.png"></img> </td>       
+      <td ng-repeat="container in containers">
+        <img src="images/container.png"  ></img>    
+      </td>
+    </tr >
+    <tr>
+      <td><img src="images/warehouse.png"></img> </td>       
+      <td ng-repeat="container in containers">
+        <img src="images/container.png"  ></img>    
+      </td>
+    </tr >
+  </table>
+
+
+
 <div ng-controller="DestinationCtrl">
   {{ someData }}
 </div>
